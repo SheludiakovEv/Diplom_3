@@ -24,5 +24,4 @@ public class HomePage {
     public static final String PROFILE = "account/profile";
     public static final String REGISTER = "register";
 
-
 }

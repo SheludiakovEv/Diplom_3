@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9003242d-f443-48dd-81c2-1de68f476c5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9003242d-f443-48dd-81c2-1de68f476c5b" name="Changes" comment="First commit amd add allure report">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page_object_model/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object_model/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page_object_model/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object_model/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page_object_model/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object_model/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page_object_model/PasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object_model/PasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/cygwin64/home/Eugeniy/final_project_4_sprint",
+    "last_opened_file_path": "C:/cygwin64/home/Joni_sh1/Diplom_2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
@@ -53,12 +55,13 @@
       <command value="mvn verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RegistrationTest.createUserWithCorrectPassword">
-    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AccountTest.clickPersonalAccountButton">
+    <configuration name="AccountTest.clickOnTheLogo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AccountTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="clickOnTheLogo" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,12 +76,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.exitFromPersonalAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountTest.constructorFromPersonalAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AccountTest" />
-      <option name="METHOD_NAME" value="exitFromPersonalAccount" />
+      <option name="METHOD_NAME" value="constructorFromPersonalAccount" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConstructorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,23 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTest.createUserWithIncorrectPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
-      <option name="METHOD_NAME" value="createUserWithIncorrectPassword" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RegistrationTest.createUserWithCorrectPassword" />
-        <item itemvalue="JUnit.RegistrationTest.createUserWithIncorrectPassword" />
-        <item itemvalue="JUnit.AccountTest.exitFromPersonalAccount" />
-        <item itemvalue="JUnit.AccountTest" />
         <item itemvalue="JUnit.AccountTest.clickPersonalAccountButton" />
+        <item itemvalue="JUnit.AccountTest.constructorFromPersonalAccount" />
+        <item itemvalue="JUnit.ConstructorTest" />
+        <item itemvalue="JUnit.AccountTest.clickOnTheLogo" />
+        <item itemvalue="JUnit.RegistrationTest.createUserWithCorrectPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -122,6 +124,21 @@
       <option name="presentableId" value="Default" />
       <updated>1668592111647</updated>
     </task>
+    <task id="LOCAL-00001" summary="add aFirst commit amd add allure report">
+      <created>1669315138136</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669315138137</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit amd add allure report">
+      <created>1669315157322</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669315157322</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,5 +151,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add aFirst commit amd add allure report" />
+    <MESSAGE value="First commit amd add allure report" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit amd add allure report" />
   </component>
 </project>

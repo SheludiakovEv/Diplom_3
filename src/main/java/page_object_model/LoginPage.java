@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class LoginPage extends  HomePage{
+public class LoginPage extends HomePage {
 
     WebDriver driver;
 
@@ -33,7 +33,6 @@ public class LoginPage extends  HomePage{
     //Методы
     //Метод ожидания кнопки Войти
     public void expectedLoginButton() {
-      //  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
         new WebDriverWait(driver, Duration.ofSeconds(10))
                 .until(ExpectedConditions.visibilityOf(loginButton));
     }
@@ -49,7 +48,7 @@ public class LoginPage extends  HomePage{
     }
 
     @Step("Ввод полей email и пароль")
-    public void enterEmailAndPassword (String email, String password) {
+    public void enterEmailAndPassword(String email, String password) {
         mailFieldInput(email);
         passwordFieldInput(password);
     }
@@ -61,6 +60,6 @@ public class LoginPage extends  HomePage{
 
     @Step("Отображение кноки Входа")
     public boolean loginButtonDisplay() {
-       return loginButton.isDisplayed();
+        return loginButton.isDisplayed();
     }
 }

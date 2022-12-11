@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class PasswordPage extends HomePage{
+public class PasswordPage extends HomePage {
 
     public PasswordPage(WebDriver driver) {
         super(driver);

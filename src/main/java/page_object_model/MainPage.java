@@ -16,7 +16,6 @@ public class MainPage extends HomePage {
         currentUrl = baseUrl;
     }
 
-
     //Логотип
     @FindBy(xpath = ".//div[@class = 'AppHeader_header__logo__2D0X2']")
     private WebElement logo;
