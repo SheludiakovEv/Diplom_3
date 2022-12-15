@@ -36,7 +36,6 @@ public class LoginTest extends BaseTest {
         driver.get(mainPage.getUrl());
     }
 
-
     @Test
     @DisplayName("Логин по кнопке Войти в аккаунт")
     public void homePageButtonIn() {

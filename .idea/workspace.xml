@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9003242d-f443-48dd-81c2-1de68f476c5b" name="Changes" comment="First commit amd add allure report">
+    <list default="true" id="9003242d-f443-48dd-81c2-1de68f476c5b" name="Changes" comment="add allure report">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page_object_model/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object_model/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver_connection/WebDriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page_object_model/AccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object_model/AccountPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/page_object_model/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object_model/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/page_object_model/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object_model/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page_object_model/PasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object_model/PasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page_object_model/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object_model/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ConstructorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ConstructorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/cygwin64/home/Joni_sh1/Diplom_2",
+    "last_opened_file_path": "C:/cygwin64/home/Eugeniy/Дилом_Колотов_Владимир_12/QA-java-diplom-3",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
@@ -138,7 +141,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669315157322</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add allure report">
+      <created>1670750615256</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670750615256</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add allure report">
+      <created>1670750621984</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670750621984</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add allure report">
+      <created>1670750626337</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670750626337</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +179,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add aFirst commit amd add allure report" />
     <MESSAGE value="First commit amd add allure report" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit amd add allure report" />
+    <MESSAGE value="add allure report" />
+    <option name="LAST_COMMIT_MESSAGE" value="add allure report" />
   </component>
 </project>

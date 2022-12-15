@@ -6,7 +6,6 @@ import org.openqa.selenium.support.PageFactory;
 import page_object_model.AccountPage;
 import page_object_model.LoginPage;
 import page_object_model.MainPage;
-
 import java.time.Duration;
 
 @DisplayName("Личный кабинет")

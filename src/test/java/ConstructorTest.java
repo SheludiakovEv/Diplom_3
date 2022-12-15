@@ -8,7 +8,7 @@ import page_object_model.MainPage;
 @DisplayName("Переключение вкладко конструктора")
 public class ConstructorTest extends BaseTest {
 
-    MainPage mainPage;
+   MainPage mainPage;
 
     @Before
     public void setUp() {

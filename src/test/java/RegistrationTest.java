@@ -6,7 +6,6 @@ import org.junit.Test;
 import org.openqa.selenium.support.PageFactory;
 import page_object_model.LoginPage;
 import page_object_model.RegistrationPage;
-
 import java.time.Duration;
 
 @DisplayName("Регистрация нового пользователя")

@@ -20,7 +20,6 @@ public class BaseTest {
         WebDriverManager.chromedriver().driverVersion("104.0.5112.20").setup();
         driver = new ChromeDriver(new ChromeOptions().setBinary("C:\\Users\\Евгений\\AppData\\Local" +
                 "\\Yandex\\YandexBrowser\\Application\\browser.exe"));
-
     }
 
     @After
